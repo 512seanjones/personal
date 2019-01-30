@@ -85,7 +85,7 @@ def makeDecision(list1, list2):
         
 playerIds = getPlayerIds()
 #print(playerIds)
-logUserIn('512seanjones@gmail.com', 'sjones1616')        
+#logUserIn('******@gmail.com', '******') add login info before running      
 inactiveSlots = checkWhoPlays()
 #print(inactiveSlots)
 inactiveNames = getPlayerNames(inactiveSlots, playerIds)
